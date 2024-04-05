@@ -1,0 +1,335 @@
+@media screen and (max-width:1200px){
+  main{    
+  padding: 0 10px;
+  }
+  /*  header  */
+  header{
+  position: initial;
+  background-color: rgba(184, 227, 234,0.4);
+  background: initial;
+  }
+  header nav.he{
+  width: 100%;
+  height: 50px;
+  }
+  header nav.he .between{   
+  /*! display: grid; */
+  /*! column-gap: 10px; */
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  row-gap: 0;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  z-index: 1;
+  }
+  header nav.he hl{    
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  header nav.he hl a{   
+  color: white;
+  }
+  header nav.he .between > img{    
+  grid-column: 1;
+  grid-row: 2;
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+  display: none;
+  }
+  header nav.he .between ul.list{    
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  display: none;
+  }
+  header nav.he .ii{ 
+  display: none;
+  }
+  /*  title  */
+  #title{
+  padding: 0 10px;
+  }
+  section#aboutme{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  }
+  section#aboutme .subT{
+  margin: 0;
+  padding: 0;
+  background-color: #eeeeee;
+  width: 100%;
+  column-gap: 0;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  padding: 20px 0;
+  border-radius: initial;
+  }
+  section#aboutme .subT h2{    
+  padding: 0 0 0 30px;
+  grid-row: 1;
+  /*! width: 100%; */
+  line-height: 1.4;
+  font-size: 4.9vw;
+  padding: 0;
+  grid-column: 1 / span 2;
+  display: none;
+  }
+  section#aboutme .subT h2 span{
+    display: block;
+  }
+  section#aboutme .subT ul.list1{
+  grid-row: 1;
+  grid-column: 1 / span 2;
+  /*! display: none; */
+  width: 100%;
+  width: 240px;
+  height: 340px;
+  align-self: center;
+  justify-self: center;
+  padding-bottom: 15px;
+  }
+  section#aboutme .subT ul.list1 img{
+  width: 100%;
+  height: 100%;
+  box-shadow: initial;
+  }
+  section#aboutme .subT ul.list2{    
+  grid-row: 2;
+  /*! width: 100%; */
+  grid-column: 1 / span 2;
+  padding: 0 10px;
+  }
+  section#aboutme .subT ul.list2 li{
+    
+  }
+  section#aboutme .subT ul.list2 li span{
+    
+  }
+/*  portfolio  */
+  section#portfolio{    
+  margin: 0;
+  width: 100%;
+  margin-bottom: 50px;
+  }
+  section#portfolio .wrap{
+  padding: 0;
+  width: 100%;
+  }
+  section#portfolio .wrap h2{
+  /*! width: 100%; */
+  padding: 0 10px;
+  font-size: 18vw;
+  border-top: 0;
+  }
+  section#portfolio .wrap h2::before{
+    content: "";
+    display: block;
+    width: 100%;
+    background-color: #ddd;
+  }
+  section#portfolio .wrap > div.flex{
+  width: 100%;
+  }
+  section#portfolio .wrap > div.flex .odd{  
+  width: calc((100% / 2) - 20px);
+  padding: 10px;
+  box-sizing: initial;
+  }
+  section#portfolio .wrap > div.flex .odd a{ 
+  width: 100%;
+  }
+  section#portfolio .wrap > div.flex .odd .text h3{    
+  font-size: 1.4rem;
+  }
+  section#portfolio .wrap > div.flex .odd .text .link{   
+  flex-direction: column;
+  gap: 10px;
+  }
+  section#portfolio .wrap > div.flex .odd .text button{  
+  width: 100%;
+  }
+  section#portfolio .wrap > div.flex .odd a .text h3{    
+  font-size: 8vw;
+  }
+  section#portfolio .wrap > div.flex .even{
+  width: calc((100% / 2) - 20px);
+  padding: 10px;
+  box-sizing: initial;
+  }
+  section#portfolio .wrap > div.flex .even a{
+    width: 100%;
+  }
+  section#portfolio .wrap > div.flex .even .text h3{
+    font-size: 1.6rem;
+  }
+  section#portfolio .wrap > div.flex .even .text .link{    
+  flex-direction: column;
+  gap: 10px;
+  }
+  section#portfolio .wrap > div.flex .even .text .link button{    
+  width: 100%;
+  }
+  section#portfolio .wrap > div.flex .even a .text h3{    
+  font-size: 8vw;
+  }
+  section#portfolio .wrap > a{ 
+  display: none;
+  }
+/*  skills  */
+  section#skill{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin-bottom: 50px;
+  background-color: transparent;
+  }
+  section#skill .wrap{ 
+  width: 100%;
+  padding: 50px 20px;
+  }
+  section#skill .wrap h2{
+    font-size: 11vw;
+  }
+  section#skill .wrap p{
+  display: none;
+  }
+  section#skill .wrap .graphM{    
+  display: flex;
+  }
+/*  story  */
+  #story{    
+  width: 100%;
+  background-color: transparent;
+  }
+  #story .storyG{    
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  }
+  #story .s1{    
+  width: 100%;
+  column-gap: 20px;
+  }
+  #story .s1 p{    
+  line-height: 1.4;
+  }
+  #story .s2{    
+  width: 100%;
+  column-gap: 20px;
+  }
+  #story .s2 p{    
+  line-height: 1.4;
+  }
+  #story .s3{    
+  width: 100%;
+  column-gap: 20px;
+  }
+  #story .s3 p{    
+  line-height: 1.4;
+  }
+/* footer */
+  footer{
+  margin: 0;
+  padding: 50px 10px;
+  margin-bottom: 50px;
+  }
+  footer .last{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  }
+  footer .last ul{
+  width: 100%;
+  padding: 0;
+  grid-template-columns: 100%;
+  grid-template-rows: auto repeat(4,1fr);
+  padding-bottom: 15px;
+  }
+  footer .last ul li{    
+  display: initial;
+  }
+  footer .last ul p.Gg{
+    /*! display: none !important; */
+    grid-row: 2;
+    grid-column: 1;
+    display: flex;
+    margin: 0;
+    justify-self: end;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  footer .last ul p.Gg:hover{
+    color: white;
+  }
+  footer .last ul p.insta{    
+  display: none !important;
+  }
+  footer .last ul li:nth-child(1){ 
+  margin: 0;
+  grid-row: 1;
+  padding-bottom: 20px;
+  }
+  footer .last ul li:not(:first-child){    
+  margin: 0;
+  justify-self: end;
+  grid-row: 5;
+  grid-column: 1;
+  }
+  footer .last ul li:nth-child(2){    
+  grid-row: 2;
+  grid-column: 1;
+  display: none !important;
+  }
+  footer .last ul li:nth-child(3){    
+  grid-row: 3;
+  grid-column: 1;
+  }
+  footer .last ul li:nth-child(4){    
+  grid-row: 3;
+  grid-column: 1;
+  }
+  footer .last ul li:nth-child(5){    
+  grid-row: 4;
+  grid-column: 1;
+  }
+  footer .last > p{ 
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  }
+  footer .last > p.link{   
+  margin: 0;
+  padding-bottom: 20px;
+  }
+  footer .last > a{    
+  display: none;
+  }
+}
+@media screen and (max-width:768px){
+  body{
+    padding: 0 10px;
+  }
+  #story .s1{    
+  height: 100%;
+  }
+  #story .s2{    
+  height: 100%;
+  }
+  #story .s3{    
+  height: 100%;
+  width: 100%;
+  }
+  #story .s3 p{
+    height: 100%;
+  }
+}
