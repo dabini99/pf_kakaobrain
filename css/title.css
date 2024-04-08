@@ -1,8 +1,8 @@
 .title{
-
+    min-height: 500px;
 }
 .title .uno{
-
+    height: 470px;
 }
 .title .uno div{
     width: 770px;
@@ -65,7 +65,7 @@
 }
 .title .dos a p{
     position: absolute;
-    bottom: 45px;
+    bottom: 35px;
     right: 30px;
     color: white;
     font-weight: 800;
