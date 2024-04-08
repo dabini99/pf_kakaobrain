@@ -241,6 +241,7 @@ section#Editor a.last{
 /* fild */
 section#fild{
     grid-column: 2;
+    grid-row: 1 / span 3;
 }
 section#fild .flex{
     
@@ -249,16 +250,28 @@ section#fild .flex h2{
     
 }
 section#fild .flex ul{
-    
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+section#fild .flex ul li{
+    position: relative;
 }
 section#fild .flex ul a{
     
 }
 section#fild .flex ul a img{
-    
+    border-radius: 20px;
+    position: relative;
 }
 section#fild .flex ul a p{
-    
+    font-weight: 800;
+    color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 15px;
+    font-size: 20px;
+    left: 15px;
 }
 section#fild .flex ul a p span{
     
