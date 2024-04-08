@@ -9,7 +9,6 @@
     height: 470px;
     position: relative;
     z-index: 1;
-    margin-right: 15px;
 }
 .title .uno div::before{
     content: "";
@@ -43,9 +42,8 @@
 }
 .title .dos{
     height: 470px;
-    width: 370px;
+    width: calc(100% - 770px);
     position: relative;
-    margin-left: 15px;
 }
 .title .dos::before{
     content: "";
@@ -55,9 +53,9 @@
     height: 100%;
     position: absolute;
     background-repeat: no-repeat;
+    background-size: contain;
     border-radius: 20px;
     z-index: -1;
-    background-size: cover;
 }
 .title .dos a{
     width: 100%;
