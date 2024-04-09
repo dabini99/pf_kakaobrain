@@ -237,17 +237,22 @@ section#Editor a.last{
     border-radius: 50px;
     align-items: center;
     justify-content: center;
+    font-weight: 700;
 }
 /* fild */
 section#fild{
     grid-column: 2;
     grid-row: 1 / span 3;
+    justify-self: end;
+    position: relative;
 }
 section#fild .flex{
-    
+    width: 300px;
 }
 section#fild .flex h2{
-    
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 25px;
 }
 section#fild .flex ul{
     row-gap: 20px;
@@ -277,5 +282,19 @@ section#fild .flex ul a p span{
     
 }
 section#fild .flex a.last{
-    
+    width: 130px;
+    height: 44px;
+    display: flex;
+    border: 1px solid black;
+    line-height: 44px;
+    position: absolute;
+    bottom: -65px;
+    right: calc(50% - 51px);
+    border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    font-weight: 600;
+    padding: 20px;
+    box-sizing: border-box;
 }
