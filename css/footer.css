@@ -27,6 +27,7 @@ footer .wrap .uno h2 a{
 }
 footer .wrap .uno p{
     color: #999999;
+    line-height: 1.4;
 }
 footer .wrap .uno p br{
     
@@ -47,37 +48,43 @@ footer .wrap .dos{
     grid-column: 2;
     grid-row: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 footer .wrap .dos .dos1{
     
 }
 footer .wrap .dos .dos1 h2{
     margin-bottom: 30px;
+    font-weight: 700;
 }
 footer .wrap .dos .dos1 ul{
-    
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 footer .wrap .dos .dos1 ul li{
     
 }
 footer .wrap .dos .dos1 ul li a{
-    color: white;
+    color: #999999;
 }
 footer .wrap .dos .dos2{
     
 }
 footer .wrap .dos .dos2 h2{
     margin-bottom: 30px;
+    font-weight: 700;
 }
 footer .wrap .dos .dos2 ul{
-    
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
 }
 footer .wrap .dos .dos2 ul li{
 
 }
 footer .wrap .dos .dos2 ul li a{
-    color: white;
+    color: #999999;
 }
 footer .wrap .thress{
     display: flex;
@@ -86,10 +93,11 @@ footer .wrap .thress{
     justify-content: space-between;
 }
 footer .wrap .thress p{
-    
+    color: #999999;
 }
 footer .wrap .thress ul{
     display: flex;
+    gap: 20px;
 }
 footer .wrap .thress ul li{
     
@@ -101,6 +109,7 @@ footer .wrap .thress ul li a{
     display: block;
     background-repeat: no-repeat;
     background-size: contain;
+    line-height: 24px;
 }
 footer .wrap .thress ul li:nth-child(1) a{
     background-image: url(../img/linkedin.svg);

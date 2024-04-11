@@ -119,7 +119,7 @@ section#Editor{
     grid-row: 2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: auto auto auto auto;
     min-height: 900px;
     column-gap: 20px;
     position: relative;
@@ -225,15 +225,22 @@ section#Editor div a p:nth-of-type(3){
     padding-top: 30px;
     color: #cccccc;
 }
-section#Editor a.last{
+section#Editor .tagaM{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    grid-column: 1 / span 3;
+}
+section#Editor .tagaM a.last{
     width: 80px;
     height: 44px;
     display: flex;
     border: 1px solid black;
     line-height: 44px;
-    position: absolute;
+    /* position: absolute;
     bottom: -44px;
-    right: 50%;
+    right: 50%; */
     border-radius: 50px;
     align-items: center;
     justify-content: center;
