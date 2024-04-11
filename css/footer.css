@@ -5,10 +5,14 @@ footer{
 }
 footer .wrap{
     padding-top: 30px;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    row-gap: 60px;
 }
 footer .wrap .uno{
-    
+    grid-column: 1;
+    grid-row: 1;
 }
 footer .wrap .uno h2{
     margin-bottom: 30px;
@@ -40,7 +44,10 @@ footer .wrap .uno a.last{
     font-size: 15px;
 }
 footer .wrap .dos{
-    
+    grid-column: 2;
+    grid-row: 1;
+    display: flex;
+    justify-content: center;
 }
 footer .wrap .dos .dos1{
     
@@ -55,7 +62,7 @@ footer .wrap .dos .dos1 ul li{
     
 }
 footer .wrap .dos .dos1 ul li a{
-    
+    color: white;
 }
 footer .wrap .dos .dos2{
     
@@ -70,20 +77,40 @@ footer .wrap .dos .dos2 ul li{
 
 }
 footer .wrap .dos .dos2 ul li a{
-    
+    color: white;
 }
 footer .wrap .thress{
-    
+    display: flex;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    justify-content: space-between;
 }
 footer .wrap .thress p{
     
 }
 footer .wrap .thress ul{
-    
+    display: flex;
 }
 footer .wrap .thress ul li{
     
 }
 footer .wrap .thress ul li a{
-    
+    font-size: 0;
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+footer .wrap .thress ul li:nth-child(1) a{
+    background-image: url(../img/linkedin.svg);
+}
+footer .wrap .thress ul li:nth-child(2) a{
+    background-image: url(../img/youtube.svg);
+}
+footer .wrap .thress ul li:nth-child(3) a{
+    background-image: url(../img/github.svg);
+}
+footer .wrap .thress ul li:nth-child(4) a{
+    background-image: url(../img/facebook.svg);
 }

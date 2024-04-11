@@ -281,15 +281,21 @@ section#fild .flex ul a p{
 section#fild .flex ul a p span{
     
 }
-section#fild .flex a.last{
+section#fild .flex .taga{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+section#fild .flex .taga a.last{
     width: 130px;
     height: 44px;
     display: flex;
     border: 1px solid black;
     line-height: 44px;
-    position: absolute;
+    /* position: absolute;
     bottom: -65px;
-    right: calc(50% - 51px);
+    right: calc(50% - 51px); */
     border-radius: 50px;
     align-items: center;
     justify-content: center;
